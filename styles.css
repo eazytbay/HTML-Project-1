@@ -1,0 +1,121 @@
+html {
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em 0;
+}
+/* styles for the body */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+nav ul {
+  list-style: none; /* Removes the square bullets */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Aligns list items horizontally */
+  gap: 1rem; /* Adds space between items */
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  border-radius: 4px;
+}
+.section-heading {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 1em;
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 0.5em;
+}
+section {
+  padding: 2em;
+  margin: 1em 0;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+}
+#about {
+  background-color: #fdf6ec;
+}
+#resume {
+  background-color: #f0ecf6;
+}
+#contact {
+  background-color: #f6f6f6;
+}
+/* Articles (inside Work section) */
+article {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5em;
+  margin-top: 1em;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  padding: 0.75em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+/* 6. Resume video */
+video {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  max-width: 100%;
+}
+/* 7. Resume download button */
+a[href$=".pdf"] {
+  display: inline-block;
+  background-color: #0077cc;
+  color: white;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1em;
+}
+
+a[href$=".pdf"]:hover {
+  background-color: #005fa3;
+}
+
+/* Add space at bottom */
+body {
+  padding-bottom: 3em;
+}
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+
