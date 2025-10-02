@@ -22,8 +22,11 @@ nav ul {
   gap: 1rem; /* Adds space between items */
   justify-content: center;
   background-color: #f8f8f8;
+  flex-direction: row;
+  align-items: center;
 }
 nav a {
+  display:block;
   text-decoration: none;
   color: #333;
   font-weight: bold;
@@ -49,24 +52,43 @@ section {
   border-radius: 8px;
   background-color: #f4f4f4;
 }
-#about {
-  background-color: #fdf6ec;
+#work{
+  text-align: center;
 }
-#resume {
-  background-color: #f0ecf6;
+.Projects {
+  display: flex;
+  flex-direction: row;   
+  gap: 20px;
 }
-#contact {
-  background-color: #f6f6f6;
-}
-/* Articles (inside Work section) */
-article {
+
+.Projects article {
   background-color: #fff;
   border: 1px solid #ddd;
   padding: 1.5em;
-  margin-top: 1em;
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+
+  flex: 1 1 calc(33.333% - 20px);  // Uncomment this for 3 per row 
 }
+
+#about {
+  background-color: #fdf6ec;
+}
+#about h2{
+  background-color: #f0ecf6;
+  text-align: center;
+}
+.about-flex {
+  display: inline-block;
+}
+
+#contact {
+  background-color: #f6f6f6;
+}
+#resume{
+  text-align: center;
+}
+
 form {
   max-width: 600px;
   margin: auto;
