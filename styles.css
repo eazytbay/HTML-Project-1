@@ -26,7 +26,7 @@ nav ul {
   align-items: center;
 }
 nav a {
-  display:block;
+  display:inline;
   text-decoration: none;
   color: #333;
   font-weight: bold;
@@ -68,7 +68,7 @@ section {
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
 
-  flex: 1 1 calc(33.333% - 20px);  // Uncomment this for 3 per row 
+  flex: 1 1 calc(33.333% - 20px); 
 }
 
 #about {
@@ -129,7 +129,7 @@ a[href$=".pdf"]:hover {
   background-color: #005fa3;
 }
 
-/* Add space at bottom */
+/* Adds space at bottom */
 body {
   padding-bottom: 3em;
 }
